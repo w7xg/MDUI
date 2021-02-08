@@ -16,8 +16,18 @@
     />
     <title>Hello, world!</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="mdui-drawer-body-right">
+
+<center><h1>Hello, world!</h1></center>
+  <button class="mdui-btn" mdui-drawer="{target: '#left-drawer'}">open left drawer</button>
+
+  <div class="mdui-drawer" id="left-drawer">
+    ... left drawer content ...
+    <button class="mdui-btn" mdui-drawer-close>close</button>
+  </div>
+
+
+    
 
     <!-- MDUI JavaScript -->
     <script
